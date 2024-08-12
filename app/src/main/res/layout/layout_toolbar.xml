@@ -23,7 +23,7 @@
             app:navigationIcon="@drawable/menu"
             android:background="@drawable/toolbar_shape">
             <ImageButton
-                android:id="@+id/bellIcon"
+                android:id="@+id/bellBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="20dp"

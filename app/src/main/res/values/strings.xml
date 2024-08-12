@@ -13,4 +13,9 @@
     <string name="Review">Review</string>
     <string name="Favourite">Favourite</string>
     <string name="Search">Search</string>
+    <string name="profile_clicked">profile_clicked</string>
+    <string name="Review_clicked">Review_clicked</string>
+    <string name="Favourite_clicked">Favourite_clicked</string>
+    <string name="Search_clicked">Search_clicked</string>
+    <string name="settings_clicked">settings_clicked</string>
 </resources>

@@ -35,11 +35,49 @@ class MainActivity : AppCompatActivity() {
         binding.rvBooks.adapter=bookAdapter
 
 
-        binding.toolbar.bellIcon.setOnClickListener {
+        binding.toolbar.bellBtn.setOnClickListener {
             Toast.makeText(this,R.string.Notification_clicked, Toast.LENGTH_SHORT).show()
         }
                 binding.toolbar.materialToolbar.setNavigationOnClickListener {
             binding.drawerLayout.open()
         }
+        binding.toolbar.materialToolbar.setNavigationOnClickListener {
+            binding.drawerLayout.open()
+        }
+
+
+        binding.navigationView.setNavigationItemSelectedListener {
+            when(it.itemId){
+                R.id.profile -> {
+                    Toast.makeText(this, R.string.profile_clicked, Toast.LENGTH_SHORT).show()
+                    binding.drawerLayout.close()
+                    true
+                }
+
+                R.id.Review -> {
+                    Toast.makeText(this, R.string.Review_clicked, Toast.LENGTH_SHORT).show()
+                    binding.drawerLayout.close()
+                    true
+                }
+                R.id.Favourite -> {
+                    Toast.makeText(this, R.string.Favourite_clicked, Toast.LENGTH_SHORT).show()
+                    binding.drawerLayout.close()
+                    true
+                }
+                R.id.search -> {
+                    Toast.makeText(this, R.string.Search_clicked, Toast.LENGTH_SHORT).show()
+                    binding.drawerLayout.close()
+                    true
+                }
+                R.id.settings -> {
+                    Toast.makeText(this, R.string.settings_clicked, Toast.LENGTH_SHORT).show()
+                    binding.drawerLayout.close()
+                    true
+                }
+
+                else -> false
+            }
+        }
+
     }
 }
