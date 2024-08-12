@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BookStore</string>
+    <string name="book_image">Book Image\n</string>
+    <string name="exit_button">Exit button\n</string>
+    <string name="search">search</string>
+    <string name="profile">profile</string>
+    <string name="settings">settings</string>
+    <string name="change_language">change language</string>
+    <string name="want_To_Read">Want to read</string>
+    <string name="my_name">Mahmoud Wahba</string>
+    <string name="books">Books</string>
+    <string name="Notification_clicked">Notification clicked</string>
+    <string name="Review">Review</string>
+    <string name="Favourite">Favourite</string>
+    <string name="Search">Search</string>
+</resources>
